@@ -6,4 +6,9 @@ public class MathUtil {
 		return x * y;
 	}
 
+	public String getUpper (String numString){
+		return numString.toUpperCase();
+	}
+
+
 }

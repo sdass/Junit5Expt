@@ -13,3 +13,6 @@ maven from simple project adding mainifest file with entry point under <build> e
 C:\Users\sdass\STS\2019workspace\Junit5Expt>mvn celan; mvn install
 C:\Users\sdass\STS\2019workspace\Junit5Expt>java -jar target\Junit5Expt-0.0.1-SNAPSHOT.jar
 This is test
+---------------------------
+https://www.petrikainulainen.net/programming/testing/junit-5-tutorial-running-unit-tests-with-maven/
+(c) introducing mvaen Surefire Plugin (to use its native JUnit 5 support) and  removing junit-platform-runner dependency

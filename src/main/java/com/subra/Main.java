@@ -8,6 +8,7 @@ public class Main {
 		MathUtil mUtil = new MathUtil();
 		double r = mUtil.multiply(9, 3);
 		System.out.println(r);
+		System.out.println(mUtil.getUpper("fifty"));
 		
 
 	}

@@ -19,12 +19,25 @@
 			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
 		</dependency>
+        <!-- I probably do not neeed it if I use maven sure fire plugin-->
+        <!-- https://www.petrikainulainen.net/programming/testing/junit-5-tutorial-running-unit-tests-with-maven/ -->
+<!--
+
 		<dependency>
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-runner</artifactId>
 			<version>${junit.platform.version}</version>
 			<scope>test</scope>
 		</dependency>
+-->
+
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
 
 
 	</dependencies>
@@ -42,6 +55,11 @@
                     </manifest>
                 </archive>
             </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <version>2.22.2</version>
+            <artifactId>maven-surefire-plugin</artifactId>
         </plugin>
     </plugins>
     </build>
